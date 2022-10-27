@@ -7,7 +7,7 @@ import time
 
 
 # balls = ["x","y","xs","ys","size","r","g","b"]
-# platform = ["x1","y1","x2","y2","tangentx","tangeenty","normalx","normaly","length",]
+# platform = ["x1","y1","x2","y2","tangent","tangeenty","normalx","normaly","length",]
 
 def addBall(balls, x, y, xs, ys, s, r, g, b):
     balls.append({"x": x, "y": y, "xs": xs, "ys": ys, "size": s, "r": r, "g": g, "b": b})
